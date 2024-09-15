@@ -1,0 +1,15 @@
+VERSION 0.7
+
+build:
+    FROM openjdk:8-slim
+    WORKDIR /compile
+    COPY sum_n.java .
+    RUN javac sum_n.java
+    SAVE ARTIFACT Main.class AS LOCAL class_file/Main.class 
+final:
+    FROM openjdk:8-alpine
+    WORKDIR /opt/app    
+    COPY class_file/Main.class .
+    CMD ["java", "Main"]
+    SAVE IMAGE earthly-java-app:latest
+

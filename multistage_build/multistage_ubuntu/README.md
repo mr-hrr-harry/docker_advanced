@@ -4,11 +4,11 @@
 
 ### to generate the image
 
-`docker build -t get_env . `
+`docker build -t get_env .`
 
-### to run the conainer
+### to run the container
 
-`docker run --rm --name get_env -it ubuntu_env` 
+`docker run --rm --name env_specs -it get_env`
 
 ### for notes refer:
 
