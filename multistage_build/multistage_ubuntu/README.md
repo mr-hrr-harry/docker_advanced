@@ -1,16 +1,16 @@
-# multistage with ubuntu-alpine
+# Multistage with ubuntu-alpine
 
-### Aim: to create a spec file in the ubuntu(~80MB) and copy that to alpine (~10MB) using multistaging
+### Aim: To create a spec file in the ubuntu(~80MB) and copy that to alpine (~10MB) using multistaging
 
-### to generate the image
+### To generate the image
 
 `docker build -t get_env .`
 
-### to run the container
+### To run the container
 
 `docker run --rm --name env_specs -it get_env`
 
-### for notes refer:
+### For notes refer:
 
 [Docker notes](https://mr-horror-harry.notion.site/Harry-s-Docker-Docs-d252b1bba2ab42e084fcb7b2f970cf2b?pvs=4)
 

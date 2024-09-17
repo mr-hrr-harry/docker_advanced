@@ -1,8 +1,8 @@
 # Docker advanced concepts
 
-### Aim: to practise the docker adavanced concepts  
+### Aim: To practise the docker adavanced concepts  
 
-### for notes refer:
+### Tor notes refer:
 
 [Docker notes](https://mr-horror-harry.notion.site/Harry-s-Docker-Docs-d252b1bba2ab42e084fcb7b2f970cf2b?pvs=4)
 
