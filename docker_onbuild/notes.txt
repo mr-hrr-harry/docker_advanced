@@ -1,0 +1,9 @@
+develop considering
+
+one base python image
+
+but diff childs image with diff requirements.txt
+
+using 
+ONBUILD COPY req.txt
+ONBUILD RUN pip install -r req.txt
