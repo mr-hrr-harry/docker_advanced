@@ -2,21 +2,21 @@
 
 ### Aim: To create a java-class file in one image, store it and use it later in another image to maintain source code abstraction using earthly 
 
-pre-requisites: earthly [Install](https://earthly.dev/get-earthly)
+pre-requisites: earthly ([Install](https://earthly.dev/get-earthly))
 
-### To generate the artifacts
+To generate the artifacts
 
 `earthly +build`
 
-### To build the image
+To build the image
 
 `earthly +final`
 
-### To run the container
+To run the container
 
 `docker run --rm -it --name java_sum_n earthly-java-app:latest`
 
-### For notes refer:
+For notes refer:
 
 [Docker notes](https://mr-horror-harry.notion.site/Harry-s-Docker-Docs-d252b1bba2ab42e084fcb7b2f970cf2b?pvs=4)
 
